@@ -13,8 +13,8 @@ function App() {
     <div className='flex flex-row h-screen' style={{ fontFamily: '"DroidArabicKufi", "Inter", "Roboto", "Helvetica", "Arial", sans-serif' }}>
 
       <Sidebar className='h-screen fixed' width='16.66%'>
-        <div className='flex flex-col items-center justify-around h-80 w-full font-bold text-3xl'>
-          <img className='w-[80%] rounded-[60%]' src={fusionImage} alt="" />
+        <div className='flex flex-col items-center justify-centre h-80 w-full font-bold text-3xl'>
+          <img className='h-[150px] rounded-[60%] my-10' src={fusionImage} alt="" />
           Fusion
         </div>
         <Menu>
