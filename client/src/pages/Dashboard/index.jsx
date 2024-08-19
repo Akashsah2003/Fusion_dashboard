@@ -2,10 +2,42 @@ import React from "react";
 
 const Dashboard = () => {
     return (
-        <>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita rem sint nulla tempora! Dicta ut maxime modi numquam. Quo excepturi cupiditate veniam ipsa blanditiis reiciendis adipisci totam quibusdam? Autem tempora quia amet! Est itaque nesciunt dolores, sint consectetur, maxime repellat odit alias, rem reiciendis laudantium accusamus ratione minima sunt temporibus laboriosam provident. Illum soluta nihil magni sequi deserunt iste quo accusantium, magnam dolorum nam autem, illo, aut atque quos explicabo! Ullam voluptates ipsa aspernatur accusamus nostrum aut quia, est officia neque vitae sint unde sapiente? Asperiores sapiente exercitationem eaque quae, quo deserunt rerum sint pariatur assumenda, voluptatibus dolorem. Molestiae nam harum deserunt est illum accusantium illo perferendis, nisi voluptatibus, vitae ipsam, error provident? Saepe voluptatem eum sed deserunt incidunt maiores, dolore architecto placeat commodi cupiditate sapiente sequi repellendus id ea voluptas dolor unde ullam iste ex consequuntur. Officia fugit vitae placeat nam maiores esse quas minima pariatur cum inventore vero optio enim sequi qui blanditiis eos ex, dolorum iure minus. Facilis voluptatibus exercitationem similique ut officia dolorum, necessitatibus sed eos, maiores sunt dolores incidunt consequuntur facere commodi fugit tenetur a autem mollitia dolor laudantium obcaecati quos! Dolorum consequuntur commodi unde cum eaque earum, repellat perferendis officiis praesentium dignissimos labore rem ducimus quae dolores placeat distinctio officia, doloremque incidunt maxime. Fugiat quisquam distinctio dolorem numquam odio! Odio aliquid cumque voluptatem dicta quae explicabo voluptatum animi deleniti. Dolorum veniam nihil debitis ratione aut id, laboriosam repellendus sapiente repellat, in distinctio unde minus expedita necessitatibus fuga perferendis minima. Expedita, ex, recusandae vitae placeat assumenda ducimus nemo rerum provident reiciendis dolores quibusdam molestias consequatur eum sapiente necessitatibus eveniet ad? Vel non similique facere accusantium expedita dolor pariatur obcaecati earum excepturi. Aliquid non atque quas laudantium neque eveniet possimus rem aut. Adipisci iure omnis aliquid? Quod, dolor. Perspiciatis fugiat placeat recusandae odit dicta, sunt dolor accusantium nisi maiores soluta illum aut tenetur harum vero minus iste doloribus aspernatur cupiditate vitae rerum? Corrupti nobis sint accusantium fugit a ipsam totam, sequi molestias beatae hic deleniti vero eum nostrum dolorem. Dolorum suscipit tempore incidunt sed, facere expedita sunt odio nesciunt quos eveniet rerum. Aperiam, molestias doloribus error corporis harum id aliquam eaque quia nobis vel saepe facilis sit, accusamus, cupiditate adipisci ut minus nemo tempore consequatur dolore praesentium? Fugit debitis rem repudiandae quis in nam quaerat, voluptatibus, molestiae, ex dolore perspiciatis! Aspernatur laboriosam aut quaerat, tempora quibusdam animi voluptatem aliquid excepturi eveniet molestiae. Delectus, et adipisci nobis quasi optio voluptate architecto modi quisquam similique, molestiae exercitationem! Corrupti magni accusantium incidunt. Laboriosam dolorem provident nobis eos nulla voluptatum, nisi velit, possimus magnam dolorum itaque ullam eius autem soluta, enim non placeat consectetur debitis aspernatur hic excepturi eaque optio? Iusto id qui adipisci ut non reiciendis cum. Explicabo non eos ut soluta quo fugit, eveniet reprehenderit velit fugiat quia harum quae sint officia exercitationem nihil vitae illum quidem facere minima! Odio sint ullam aspernatur hic sapiente. Accusantium vel quas similique necessitatibus voluptatem neque nemo beatae officiis veniam voluptates. Rem iusto nemo, ipsa quis dolorum iure necessitatibus distinctio illum dolores qui laborum excepturi obcaecati quia adipisci nulla beatae explicabo, id suscipit non quo cum! Quos recusandae, quod doloribus animi veniam culpa iusto ad vero aut omnis quibusdam minus nostrum autem! Itaque, deserunt similique rem odit culpa eum. Amet placeat quis illo quae architecto, optio deleniti voluptatem! Praesentium molestias expedita aliquam possimus voluptate dolorem, enim nihil maxime repudiandae illum suscipit veritatis exercitationem odit aliquid nobis soluta iste provident, nemo iusto magnam? Et, officiis soluta asperiores accusamus veritatis hic magnam consequuntur nesciunt? Ratione itaque ad quasi! Enim provident dolore, qui cum maxime ex blanditiis exercitationem. Accusamus, necessitatibus itaque. Ea accusantium, ab magnam veniam architecto non laboriosam, fuga ut distinctio nulla, exercitationem ullam ipsa! Magni itaque optio id, quisquam nobis at ut doloribus hic. Voluptatem quidem id nihil repellat dolorem blanditiis doloribus facere exercitationem minus aliquid tenetur dolore nam eos, doloremque illum sunt sapiente pariatur voluptates maiores provident architecto perspiciatis corporis. Quas accusantium officiis repellendus fuga est dolorum ducimus amet molestiae reprehenderit molestias error, labore optio consectetur vel quibusdam. Harum eius architecto cupiditate fugit ullam repellendus accusantium molestiae facilis quos! Dolore magni recusandae minus voluptates consequatur officiis architecto, explicabo quisquam quia eligendi sunt nesciunt reiciendis. Doloribus, eos vitae voluptatem sunt consequuntur saepe temporibus corrupti consectetur, amet deleniti unde delectus explicabo. Dolore ex, numquam incidunt alias cumque hic laboriosam tempora veritatis dolorem voluptatibus natus ipsa nemo distinctio eius dolor molestias quae facilis in culpa consectetur ratione nam consequatur ad ut. Esse ipsam atque fugit autem magnam dolorem illum vitae fuga vero blanditiis reiciendis, cupiditate ducimus ea vel harum quaerat deleniti omnis obcaecati quia mollitia quo, placeat nihil tempora. Similique quo error vel fuga rem. Itaque veritatis ad ipsa dolorem eveniet omnis consequuntur accusantium aperiam tempore ducimus aspernatur asperiores aliquid officia illo sunt numquam nesciunt similique rerum exercitationem, excepturi neque soluta quaerat! Accusamus molestias odio eum nostrum illum ipsam quos vel eligendi, dolorum laboriosam voluptate praesentium nihil. Dolorum officia cum est, sint, delectus quia saepe molestias ad quo eum vel. Dolorum laborum neque iste atque molestiae quia inventore expedita quaerat perspiciatis, ab, amet odit quasi tempora veritatis eum, voluptates illo reiciendis quo pariatur labore provident cum accusantium quidem perferendis. Voluptatem accusamus ipsum commodi assumenda dolorum quos, sint excepturi vitae optio, deserunt pariatur illum eaque aut, ratione quaerat? Ipsum cupiditate nam aliquam possimus earum ipsam culpa molestiae labore ad fuga? Consequuntur, laudantium maiores suscipit sequi consequatur tenetur? Libero blanditiis nesciunt enim voluptatem recusandae adipisci excepturi iure nemo nam et aliquid cumque suscipit, exercitationem error sequi omnis dolore fugit reiciendis voluptatum placeat voluptas nisi dolorem cupiditate? At neque eum minus ea recusandae molestiae nemo animi eos, quaerat, aliquam praesentium porro asperiores aperiam ducimus commodi laboriosam voluptate saepe culpa. Nostrum quam temporibus, id, eligendi aperiam illum quasi minus earum quaerat similique quo cumque eum dolor repellat? Fugit officiis corporis ea eius voluptatum veritatis debitis ullam possimus cum optio laboriosam magnam earum quis soluta exercitationem saepe in obcaecati, culpa qui itaque et odit totam, excepturi impedit? Pariatur alias debitis perferendis similique, facilis saepe nam perspiciatis facere repudiandae vitae. Quos?</div>
-        </>
+        <div className="flex-1 flex overflow-hidden">
+        {/* Left side (grid) */}
+        <div className="flex-1 p-4 overflow-y-auto">
+          <div className="grid grid-cols-3 gap-4 h-1/2">
+            {/* Work Experience */}
+            <div className="col-span-3 bg-gray-200 p-4 rounded-lg ">
+              <h2 className="font-bold mb-2 text-center">Work Experience</h2>
+              {/* <div className="bg-white h-40 w-full rounded-lg flex items-end p-4">
+                <div className="w-1 h-32 bg-black"></div>
+                <div className="flex-grow h-1 bg-black self-end ml-1"></div>
+              </div> */}
+              <ul>
+                <li>Software Engineer at XYZ Company</li>
+                <li>Software Engineer at XYZ Company</li>
+              </ul>
+            </div>
+
+            {/* My Skills */}
+            <div className="col-span-2 row-span-2 bg-gray-200 p-4 rounded-lg">
+              <h2 className="font-bold text-center">My Skills</h2>
+            </div>
+
+            {/* Achievements */}
+            <div className="bg-gray-200 p-4 rounded-lg">
+              <h2 className="font-bold mb-2 text-center">Achievements</h2>
+              <p className="text-center">NO Activity</p>
+            </div>
+
+            {/* Educational courses */}
+            <div className="bg-gray-200 p-4 rounded-lg">
+              <h2 className="font-bold mb-2 text-center">Educational courses</h2>
+              <p>BitByte</p>
+            </div>
+          </div>
+        </div>
+    </div>
     )
 };
-
 export default Dashboard;
