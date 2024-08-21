@@ -24,7 +24,6 @@ function App() {
               <div className='h-4 w-4 bg-black rounded-full'></div>
             </div>
           </div>
-
           <Menu>
             <MenuItem icon={<BsGrid />} className="text-black"> Dashboard </MenuItem>
 
