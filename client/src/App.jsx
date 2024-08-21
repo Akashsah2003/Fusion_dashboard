@@ -1,98 +1,62 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import Dashboard from './pages/Dashboard'
+import Dashboard from './pages/Dashboard';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Announcements from './components/Announcements';
 import fusionImage from './assets/fusion.png';
+import { FaBuilding, FaUtensils, FaUniversity, FaMoneyBill, FaExclamationCircle, FaHeartbeat } from 'react-icons/fa';
+import { BsGrid, BsFileText } from 'react-icons/bs';
+import { VscFileSubmodule } from "react-icons/vsc";
 
 function App() {
 
   return (
     <>
-    <div className='flex flex-row h-screen' style={{ fontFamily: '"DroidArabicKufi", "Inter", "Roboto", "Helvetica", "Arial", sans-serif' }}>
-
-      <Sidebar className='h-screen fixed' width='16.66%'>
-        <div className='flex flex-col items-center justify-centre h-80 w-full font-bold text-3xl'>
-          <img className='h-[150px] rounded-[60%] my-10' src={fusionImage} alt="" />
-          Fusion
-        </div>
-        <Menu>
-          <SubMenu label="Dashboard">
-            <MenuItem> Profile </MenuItem>
-            <MenuItem> Skills Technologies </MenuItem>
-            <MenuItem> Educational Courses </MenuItem>
-            <MenuItem> Work Experience </MenuItem>
-            <MenuItem> Achievements </MenuItem>
-          </SubMenu>
-          <SubMenu label="Academics">
-            <MenuItem> Current Semester </MenuItem>
-            <MenuItem> Registration </MenuItem>
-            <MenuItem> Miscellaneous </MenuItem>
-          </SubMenu>
-          <SubMenu label="Programme And Curriculum">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Mess Management">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Visitor's Hostel">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Healthcare Center">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Scholarship Portal">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Complaint System">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Placement Cell">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Department Portal">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Gymkhana">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Hostel Management">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-          <SubMenu label="Other Academic Procedure">
-            <MenuItem> SubModule 1 </MenuItem>
-            <MenuItem> SubModule 2 </MenuItem>
-          </SubMenu>
-        </Menu>
-      </Sidebar>
-      <div className='flex flex-col h-screen w-5/6'>
-        <Navbar />
-        <div className='flex flex-row w-full h-[calc(100%-64px)]'>
-          <div className='flex w-3/4 overflow-y-scroll'>
-          {/* Main Pages Here */}
-              <Dashboard />
+      <div className='flex flex-row h-screen' style={{ fontFamily: '"DroidArabicKufi", "Inter", "Roboto", "Helvetica", "Arial", sans-serif' }}>
+        <Sidebar className='h-screen fixed' width='16.66%' backgroundColor='#E5E5E5'>
+          <div className='flex flex-col items-center justify-center h-80 w-full'>
+            <div className='h-[80px] w-[80px] bg-black rounded-full text-white flex items-center justify-center text-4xl'>F</div>
+            <div className='mt-5 text-2xl font-bold'>Fusion</div>
+            <div className='flex space-x-2 mt-4'>
+              <div className='h-4 w-4 bg-black rounded-full'></div>
+              <div className='h-4 w-4 bg-black rounded-full'></div>
+              <div className='h-4 w-4 bg-black rounded-full'></div>
+            </div>
           </div>
-          <div className='flex flex-col w-1/4 bg-slate-400 h-full justify-around items-center'>
-            {/* Profile section right side bar here */}
-            <Profile />
-            <Announcements />
+          <Menu>
+            <MenuItem icon={<BsGrid />} className="text-black"> Dashboard </MenuItem>
+
+            <SubMenu label="Modules" icon={<VscFileSubmodule />} className="text-black">
+              <MenuItem icon={<FaBuilding />}> Hostal </MenuItem>
+              <MenuItem icon={<FaUtensils />}> Mess </MenuItem>
+              <MenuItem icon={<FaUniversity />}> Department </MenuItem>
+              <MenuItem icon={<FaMoneyBill />}> Scholarship </MenuItem>
+              <MenuItem icon={<FaExclamationCircle />}> Complains </MenuItem>
+              <MenuItem icon={<FaHeartbeat />}> Healthcare </MenuItem>
+            </SubMenu>
+
+            <MenuItem icon={<BsFileText />} className="text-black"> Other </MenuItem>
+          </Menu>
+        </Sidebar>
+
+        <div className='flex flex-col h-screen w-5/6'>
+          <Navbar />
+          <div className='flex flex-row w-full h-[calc(100%-64px)]'>
+            <div className='flex w-3/4 overflow-y-scroll'>
+              {/* Main Pages Here */}
+              <Dashboard />
+            </div>
+            <div className='flex flex-col w-1/4 bg-slate-400 h-full justify-around items-center'>
+              {/* Profile section right side bar here */}
+              <Profile />
+              <Announcements />
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
