@@ -83,11 +83,10 @@ function App() {
           {/* Main Pages Here */}
               <Dashboard />
           </div>
-          <div className='flex flex-col w-1/4 bg-slate-400 h-full justify-around items-center'>
-            {/* Profile section right side bar here */}
-            <Profile />
-            <Announcements />
-          </div>
+          <div className="flex flex-col w-1/4 h-full justify-between">
+                        <Profile />
+                        <Announcements />
+                    </div>
         </div>
       </div>
     </div>
