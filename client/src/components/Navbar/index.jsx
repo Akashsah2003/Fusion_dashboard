@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { FaBell, FaSignOutAlt } from 'react-icons/fa';
+import { FaBars, FaBell, FaSignOutAlt } from 'react-icons/fa';
 import { BsEmojiWink } from 'react-icons/bs';
 
-
-function Navbar() {
+function Navbar({ onSidebarToggle }) {
     const [dropdownOpen, setDropdownOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState('Student');
 
@@ -19,6 +18,7 @@ function Navbar() {
     return (
         <nav style={styles.navbar}>
             <div style={styles.leftSection}>
+                <FaBars style={styles.menuIcon} onClick={onSidebarToggle} />
                 <BsEmojiWink style={styles.emojiIcon} />
                 <span style={styles.greeting}>Hi Aarav</span>
             </div>
@@ -53,6 +53,11 @@ const styles = {
   leftSection: {
     display: 'flex',
     alignItems: 'center',
+  },
+  menuIcon: {
+    fontSize: '1.5rem',
+    marginRight: '16px',
+    cursor: 'pointer',
   },
   emojiIcon: {
     fontSize: '1.5rem',
@@ -95,12 +100,8 @@ const styles = {
     fontSize: '1rem',
     whiteSpace: 'nowrap',
   },
-  dropdownItemHover: {
-    backgroundColor: '#f1f1f1',
-  },
   icon: {
     margin:'0 15px',
-    // marginLeft: '15px',
     cursor: 'pointer',
     fontSize: '1.2rem',
   },
