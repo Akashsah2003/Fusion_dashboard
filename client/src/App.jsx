@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <div className='flex flex-row h-screen' style={{ fontFamily: '"DroidArabicKufi", "Inter", "Roboto", "Helvetica", "Arial", sans-serif' }}>
-        <Sidebar className='h-screen fixed' width='16.66%' backgroundColor='#E5E5E5'>
+
+        <Sidebar className='h-screen fixed' width='16.66%' backgroundColor='#D9D9D9'>
+
           <div className='flex flex-col items-center justify-center h-80 w-full'>
             <div className='h-[80px] w-[80px] bg-black rounded-full text-white flex items-center justify-center text-4xl'>F</div>
             <div className='mt-5 text-2xl font-bold'>Fusion</div>
@@ -46,6 +48,7 @@ function App() {
             <div className='flex w-3/4 overflow-y-scroll'>
               {/* Main Pages Here */}
               <Dashboard />
+
           </div>
           <div className="flex flex-col w-1/4 h-full justify-between">
                         <Profile />
@@ -54,6 +57,7 @@ function App() {
         </div>
       </div>
       </div>
+
     </>
   );
 }
